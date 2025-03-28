@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "ar_interface__py",
+		"source" : "/home/asad/ros2_ws/build/ar_interface/ar_interface__py"
+	}
+}

@@ -1,0 +1,487 @@
+[0.000000] (-) TimerEvent: {}
+[0.000762] (ar_interface) JobQueued: {'identifier': 'ar_interface', 'dependencies': OrderedDict()}
+[0.000888] (ar_test) JobQueued: {'identifier': 'ar_test', 'dependencies': OrderedDict()}
+[0.001599] (ar_interface) JobStarted: {'identifier': 'ar_interface'}
+[0.018890] (ar_test) JobStarted: {'identifier': 'ar_test'}
+[0.046698] (ar_interface) JobProgress: {'identifier': 'ar_interface', 'progress': 'cmake'}
+[0.048298] (ar_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/asad/ros2_ws/src/ar_interface', '-DCMAKE_INSTALL_PREFIX=/home/asad/ros2_ws/install/ar_interface'], 'cwd': '/home/asad/ros2_ws/build/ar_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'asad'), ('LC_TIME', 'ur_PK'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/asad'), ('OLDPWD', '/home/asad'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ur_PK'), ('SYSTEMD_EXEC_PID', '1533'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/asad/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'asad'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/asad/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asad-7G-Series:@/tmp/.ICE-unix/1333,unix/asad-7G-Series:/tmp/.ICE-unix/1333'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ur_PK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e1c2b8da_cef0_443e_bbe5_a1f2bb831cdc'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ur_PK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.P1U732'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/asad/ros2_ws/install/ar_test:/home/asad/ros2_ws/install/ar_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ur_PK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ur_PK'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'ur_PK'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asad/ros2_ws/build/ar_interface'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/asad/ros2_ws/install/ar_test/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ur_PK'), ('LC_PAPER', 'ur_PK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/asad/ros2_ws/install/ar_interface:/home/asad/ros2_ws/install/ar_test:/opt/ros/humble')]), 'shell': False}
+[0.094722] (ar_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099301] (-) TimerEvent: {}
+[0.199753] (-) TimerEvent: {}
+[0.300249] (-) TimerEvent: {}
+[0.384163] (ar_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.387994] (ar_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.394497] (ar_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.400366] (-) TimerEvent: {}
+[0.462993] (ar_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500476] (-) TimerEvent: {}
+[0.520960] (ar_interface) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.600609] (-) TimerEvent: {}
+[0.701138] (-) TimerEvent: {}
+[0.801630] (-) TimerEvent: {}
+[0.902125] (-) TimerEvent: {}
+[1.002673] (-) TimerEvent: {}
+[1.103215] (-) TimerEvent: {}
+[1.203778] (-) TimerEvent: {}
+[1.227107] (ar_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.303919] (-) TimerEvent: {}
+[1.404474] (-) TimerEvent: {}
+[1.504987] (-) TimerEvent: {}
+[1.530610] (ar_test) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/ar_test', 'build', '--build-base', '/home/asad/ros2_ws/build/ar_test/build', 'install', '--record', '/home/asad/ros2_ws/build/ar_test/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/asad/ros2_ws/src/ar_test', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'asad', 'LC_TIME': 'ur_PK', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'HOME': '/home/asad', 'OLDPWD': '/home/asad', 'DESKTOP_SESSION': 'ubuntu', 'GAZEBO_MASTER_URI': 'http://localhost:11345', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ur_PK', 'SYSTEMD_EXEC_PID': '1533', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/asad/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'asad', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'asad', 'TERM': 'xterm-256color', 'GAZEBO_MODEL_PATH': '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'OGRE_RESOURCE_PATH': '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0', 'PATH': '/opt/ros/humble/bin:/home/asad/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/asad-7G-Series:@/tmp/.ICE-unix/1333,unix/asad-7G-Series:/tmp/.ICE-unix/1333', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ur_PK', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/e1c2b8da_cef0_443e_bbe5_a1f2bb831cdc', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ur_PK', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.P1U732', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.111', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/asad/ros2_ws/install/ar_test:/home/asad/ros2_ws/install/ar_interface:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ur_PK', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ur_PK', 'GAZEBO_RESOURCE_PATH': '/usr/share/gazebo-11:/usr/share/gazebo-11:', 'LC_IDENTIFICATION': 'ur_PK', 'GAZEBO_MODEL_DATABASE_URI': 'http://models.gazebosim.org', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/asad/ros2_ws/build/ar_test', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'GAZEBO_PLUGIN_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/asad/ros2_ws/build/ar_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asad/ros2_ws/install/ar_test/lib/python3.10/site-packages:/home/asad/ros2_ws/install/ar_test/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ur_PK', 'LC_PAPER': 'ur_PK', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/asad/ros2_ws/install/ar_interface'}, 'shell': False}
+[1.605125] (-) TimerEvent: {}
+[1.705640] (-) TimerEvent: {}
+[1.744751] (ar_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.805779] (-) TimerEvent: {}
+[1.906323] (-) TimerEvent: {}
+[2.006815] (-) TimerEvent: {}
+[2.107327] (-) TimerEvent: {}
+[2.150568] (ar_test) StdoutLine: {'line': b'running egg_info\n'}
+[2.152725] (ar_test) StdoutLine: {'line': b'writing ../../build/ar_test/ar_test.egg-info/PKG-INFO\n'}
+[2.153301] (ar_test) StdoutLine: {'line': b'writing dependency_links to ../../build/ar_test/ar_test.egg-info/dependency_links.txt\n'}
+[2.153778] (ar_test) StdoutLine: {'line': b'writing entry points to ../../build/ar_test/ar_test.egg-info/entry_points.txt\n'}
+[2.154223] (ar_test) StdoutLine: {'line': b'writing requirements to ../../build/ar_test/ar_test.egg-info/requires.txt\n'}
+[2.154722] (ar_test) StdoutLine: {'line': b'writing top-level names to ../../build/ar_test/ar_test.egg-info/top_level.txt\n'}
+[2.158769] (ar_test) StdoutLine: {'line': b"reading manifest file '../../build/ar_test/ar_test.egg-info/SOURCES.txt'\n"}
+[2.160602] (ar_test) StdoutLine: {'line': b"writing manifest file '../../build/ar_test/ar_test.egg-info/SOURCES.txt'\n"}
+[2.161108] (ar_test) StdoutLine: {'line': b'running build\n'}
+[2.161436] (ar_test) StdoutLine: {'line': b'running build_py\n'}
+[2.161842] (ar_test) StdoutLine: {'line': b'running install\n'}
+[2.162661] (ar_test) StdoutLine: {'line': b'running install_lib\n'}
+[2.165222] (ar_test) StdoutLine: {'line': b'running install_data\n'}
+[2.165692] (ar_test) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.169831] (ar_test) StdoutLine: {'line': b"removing '/home/asad/ros2_ws/install/ar_test/lib/python3.10/site-packages/ar_test-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.170643] (ar_test) StdoutLine: {'line': b'Copying ../../build/ar_test/ar_test.egg-info to /home/asad/ros2_ws/install/ar_test/lib/python3.10/site-packages/ar_test-0.0.0-py3.10.egg-info\n'}
+[2.172645] (ar_test) StdoutLine: {'line': b'running install_scripts\n'}
+[2.207489] (-) TimerEvent: {}
+[2.218977] (ar_test) StdoutLine: {'line': b"writing list of installed files to '/home/asad/ros2_ws/build/ar_test/install.log'\n"}
+[2.276686] (ar_test) CommandEnded: {'returncode': 0}
+[2.304012] (ar_test) JobEnded: {'identifier': 'ar_test', 'rc': 0}
+[2.307625] (-) TimerEvent: {}
+[2.408167] (-) TimerEvent: {}
+[2.473167] (ar_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.508320] (-) TimerEvent: {}
+[2.520568] (ar_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.524405] (ar_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.581153] (ar_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.582144] (ar_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.582758] (ar_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.583248] (ar_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.608491] (-) TimerEvent: {}
+[2.633475] (ar_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.708640] (-) TimerEvent: {}
+[2.786457] (ar_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.808803] (-) TimerEvent: {}
+[2.871846] (ar_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[2.904544] (ar_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/asad/ros2_ws/build/ar_interface\n'}
+[2.908898] (-) TimerEvent: {}
+[2.918351] (ar_interface) CommandEnded: {'returncode': 0}
+[2.920013] (ar_interface) JobProgress: {'identifier': 'ar_interface', 'progress': 'build'}
+[2.922341] (ar_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/asad/ros2_ws/build/ar_interface', '--', '-j4', '-l4'], 'cwd': '/home/asad/ros2_ws/build/ar_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'asad'), ('LC_TIME', 'ur_PK'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/asad'), ('OLDPWD', '/home/asad'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ur_PK'), ('SYSTEMD_EXEC_PID', '1533'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/asad/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'asad'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/asad/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asad-7G-Series:@/tmp/.ICE-unix/1333,unix/asad-7G-Series:/tmp/.ICE-unix/1333'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ur_PK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e1c2b8da_cef0_443e_bbe5_a1f2bb831cdc'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ur_PK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.P1U732'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/asad/ros2_ws/install/ar_test:/home/asad/ros2_ws/install/ar_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ur_PK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ur_PK'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'ur_PK'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asad/ros2_ws/build/ar_interface'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/asad/ros2_ws/install/ar_test/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ur_PK'), ('LC_PAPER', 'ur_PK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/asad/ros2_ws/install/ar_interface:/home/asad/ros2_ws/install/ar_test:/opt/ros/humble')]), 'shell': False}
+[3.009057] (-) TimerEvent: {}
+[3.011622] (ar_interface) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.031756] (ar_interface) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.067215] (ar_interface) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_ar_interface\n'}
+[3.109190] (-) TimerEvent: {}
+[3.210073] (-) TimerEvent: {}
+[3.311510] (-) TimerEvent: {}
+[3.412058] (-) TimerEvent: {}
+[3.512603] (-) TimerEvent: {}
+[3.613110] (-) TimerEvent: {}
+[3.713639] (-) TimerEvent: {}
+[3.814134] (-) TimerEvent: {}
+[3.914658] (-) TimerEvent: {}
+[3.915473] (ar_interface) StdoutLine: {'line': b'running egg_info\n'}
+[3.917302] (ar_interface) StdoutLine: {'line': b'creating ar_interface.egg-info\n'}
+[3.918258] (ar_interface) StdoutLine: {'line': b'writing ar_interface.egg-info/PKG-INFO\n'}
+[3.920584] (ar_interface) StdoutLine: {'line': b'writing dependency_links to ar_interface.egg-info/dependency_links.txt\n'}
+[3.921962] (ar_interface) StdoutLine: {'line': b'writing top-level names to ar_interface.egg-info/top_level.txt\n'}
+[3.922221] (ar_interface) StdoutLine: {'line': b"writing manifest file 'ar_interface.egg-info/SOURCES.txt'\n"}
+[3.925798] (ar_interface) StdoutLine: {'line': b"reading manifest file 'ar_interface.egg-info/SOURCES.txt'\n"}
+[3.927613] (ar_interface) StdoutLine: {'line': b"writing manifest file 'ar_interface.egg-info/SOURCES.txt'\n"}
+[4.011758] (ar_interface) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_build_ar_interface_egg\n'}
+[4.014776] (-) TimerEvent: {}
+[4.115223] (-) TimerEvent: {}
+[4.215723] (-) TimerEvent: {}
+[4.316202] (-) TimerEvent: {}
+[4.416718] (-) TimerEvent: {}
+[4.517244] (-) TimerEvent: {}
+[4.595877] (ar_interface) StdoutLine: {'line': b'[  4%] Built target ar_interface__cpp\n'}
+[4.618588] (-) TimerEvent: {}
+[4.627553] (ar_interface) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.627984] (ar_interface) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.630371] (ar_interface) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.721478] (-) TimerEvent: {}
+[4.822142] (-) TimerEvent: {}
+[4.922634] (-) TimerEvent: {}
+[5.023140] (-) TimerEvent: {}
+[5.123655] (-) TimerEvent: {}
+[5.224161] (-) TimerEvent: {}
+[5.326472] (-) TimerEvent: {}
+[5.426972] (-) TimerEvent: {}
+[5.527476] (-) TimerEvent: {}
+[5.566567] (ar_interface) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/msg/detail/cubic_traj_params__functions.c.o\x1b[0m\n'}
+[5.627614] (-) TimerEvent: {}
+[5.728472] (-) TimerEvent: {}
+[5.771586] (ar_interface) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/msg/detail/cubic_traj_coeffs__functions.c.o\x1b[0m\n'}
+[5.828604] (-) TimerEvent: {}
+[5.929475] (-) TimerEvent: {}
+[5.933585] (ar_interface) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/ar_interface__rosidl_generator_c.dir/rosidl_generator_c/ar_interface/srv/detail/compute_cubic_traj__functions.c.o\x1b[0m\n'}
+[6.029622] (-) TimerEvent: {}
+[6.130143] (-) TimerEvent: {}
+[6.135724] (ar_interface) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libar_interface__rosidl_generator_c.so\x1b[0m\n'}
+[6.230277] (-) TimerEvent: {}
+[6.267556] (ar_interface) StdoutLine: {'line': b'[ 19%] Built target ar_interface__rosidl_generator_c\n'}
+[6.299782] (ar_interface) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.331469] (-) TimerEvent: {}
+[6.431968] (-) TimerEvent: {}
+[6.534473] (-) TimerEvent: {}
+[6.634957] (-) TimerEvent: {}
+[6.735447] (-) TimerEvent: {}
+[6.835923] (-) TimerEvent: {}
+[6.847683] (ar_interface) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ar_interface/msg/cubic_traj_params__type_support.cpp.o\x1b[0m\n'}
+[6.936054] (-) TimerEvent: {}
+[7.018550] (ar_interface) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ar_interface/msg/detail/cubic_traj_params__type_support.cpp.o\x1b[0m\n'}
+[7.036203] (-) TimerEvent: {}
+[7.137298] (-) TimerEvent: {}
+[7.238024] (-) TimerEvent: {}
+[7.248960] (ar_interface) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ar_interface/msg/detail/dds_fastrtps/cubic_traj_params__type_support.cpp.o\x1b[0m\n'}
+[7.338136] (-) TimerEvent: {}
+[7.438969] (-) TimerEvent: {}
+[7.539895] (-) TimerEvent: {}
+[7.640467] (-) TimerEvent: {}
+[7.741319] (-) TimerEvent: {}
+[7.844888] (-) TimerEvent: {}
+[7.938803] (ar_interface) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ar_interface/msg/cubic_traj_coeffs__type_support.cpp.o\x1b[0m\n'}
+[7.945019] (-) TimerEvent: {}
+[8.045868] (-) TimerEvent: {}
+[8.146744] (-) TimerEvent: {}
+[8.249876] (-) TimerEvent: {}
+[8.350743] (-) TimerEvent: {}
+[8.433524] (ar_interface) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ar_interface/msg/detail/cubic_traj_coeffs__type_support.cpp.o\x1b[0m\n'}
+[8.450889] (-) TimerEvent: {}
+[8.551832] (-) TimerEvent: {}
+[8.652825] (-) TimerEvent: {}
+[8.756988] (-) TimerEvent: {}
+[8.761615] (ar_interface) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ar_interface/msg/detail/dds_fastrtps/cubic_traj_coeffs__type_support.cpp.o\x1b[0m\n'}
+[8.857139] (-) TimerEvent: {}
+[8.913356] (ar_interface) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_params__type_support_c.cpp.o\x1b[0m\n'}
+[8.930024] (ar_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ar_interface/srv/compute_cubic_traj__type_support.cpp.o\x1b[0m\n'}
+[8.957293] (-) TimerEvent: {}
+[9.067488] (-) TimerEvent: {}
+[9.170487] (-) TimerEvent: {}
+[9.271373] (-) TimerEvent: {}
+[9.372327] (-) TimerEvent: {}
+[9.473244] (-) TimerEvent: {}
+[9.574203] (-) TimerEvent: {}
+[9.677495] (-) TimerEvent: {}
+[9.778363] (-) TimerEvent: {}
+[9.852503] (ar_interface) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ar_interface/srv/detail/compute_cubic_traj__type_support.cpp.o\x1b[0m\n'}
+[9.878507] (-) TimerEvent: {}
+[9.979470] (-) TimerEvent: {}
+[9.983434] (ar_interface) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libar_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.079620] (-) TimerEvent: {}
+[10.129693] (ar_interface) StdoutLine: {'line': b'[ 42%] Built target ar_interface__rosidl_typesupport_cpp\n'}
+[10.163075] (ar_interface) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ar_interface/srv/detail/dds_fastrtps/compute_cubic_traj__type_support.cpp.o\x1b[0m\n'}
+[10.179760] (-) TimerEvent: {}
+[10.192092] (ar_interface) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/msg/detail/cubic_traj_coeffs__type_support_c.cpp.o\x1b[0m\n'}
+[10.259135] (ar_interface) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ar_interface/srv/detail/compute_cubic_traj__type_support_c.cpp.o\x1b[0m\n'}
+[10.279907] (-) TimerEvent: {}
+[10.382917] (-) TimerEvent: {}
+[10.483792] (-) TimerEvent: {}
+[10.584662] (-) TimerEvent: {}
+[10.685501] (-) TimerEvent: {}
+[10.787636] (-) TimerEvent: {}
+[10.888504] (-) TimerEvent: {}
+[10.990490] (-) TimerEvent: {}
+[11.091445] (-) TimerEvent: {}
+[11.193495] (-) TimerEvent: {}
+[11.294437] (-) TimerEvent: {}
+[11.355658] (ar_interface) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libar_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[11.394587] (-) TimerEvent: {}
+[11.442960] (ar_interface) StdoutLine: {'line': b'[ 53%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[11.494727] (-) TimerEvent: {}
+[11.520704] (ar_interface) StdoutLine: {'line': b'[ 53%] Built target ar_interface__rosidl_typesupport_introspection_cpp\n'}
+[11.553657] (ar_interface) StdoutLine: {'line': b'[ 55%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[11.582944] (ar_interface) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libar_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.597476] (-) TimerEvent: {}
+[11.698114] (-) TimerEvent: {}
+[11.712137] (ar_interface) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libar_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[11.798263] (-) TimerEvent: {}
+[11.859336] (ar_interface) StdoutLine: {'line': b'[ 59%] Built target ar_interface__rosidl_typesupport_fastrtps_c\n'}
+[11.898417] (-) TimerEvent: {}
+[11.932528] (ar_interface) StdoutLine: {'line': b'[ 59%] Built target ar_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[11.998542] (-) TimerEvent: {}
+[12.099067] (-) TimerEvent: {}
+[12.199626] (-) TimerEvent: {}
+[12.300097] (-) TimerEvent: {}
+[12.400569] (-) TimerEvent: {}
+[12.501051] (-) TimerEvent: {}
+[12.601546] (-) TimerEvent: {}
+[12.702030] (-) TimerEvent: {}
+[12.802529] (-) TimerEvent: {}
+[12.901075] (ar_interface) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/ar_interface/msg/cubic_traj_params__type_support.cpp.o\x1b[0m\n'}
+[12.901584] (ar_interface) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/ar_interface/srv/compute_cubic_traj__type_support.cpp.o\x1b[0m\n'}
+[12.901879] (ar_interface) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/ar_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/ar_interface/msg/cubic_traj_coeffs__type_support.cpp.o\x1b[0m\n'}
+[12.905468] (-) TimerEvent: {}
+[12.996185] (ar_interface) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libar_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[13.005621] (-) TimerEvent: {}
+[13.045582] (ar_interface) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object CMakeFiles/ar_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ar_interface/srv/detail/compute_cubic_traj__type_support.c.o\x1b[0m\n'}
+[13.046067] (ar_interface) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object CMakeFiles/ar_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ar_interface/msg/detail/cubic_traj_params__type_support.c.o\x1b[0m\n'}
+[13.052280] (ar_interface) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/ar_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ar_interface/msg/detail/cubic_traj_coeffs__type_support.c.o\x1b[0m\n'}
+[13.105764] (-) TimerEvent: {}
+[13.124136] (ar_interface) StdoutLine: {'line': b'[ 74%] Built target ar_interface__rosidl_typesupport_c\n'}
+[13.153181] (ar_interface) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking C shared library libar_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[13.205915] (-) TimerEvent: {}
+[13.217497] (ar_interface) StdoutLine: {'line': b'[ 76%] Built target ar_interface__rosidl_typesupport_introspection_c\n'}
+[13.258988] (ar_interface) StdoutLine: {'line': b'[ 76%] Built target ar_interface\n'}
+[13.299574] (ar_interface) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[13.306058] (-) TimerEvent: {}
+[13.406570] (-) TimerEvent: {}
+[13.507054] (-) TimerEvent: {}
+[13.607568] (-) TimerEvent: {}
+[13.708067] (-) TimerEvent: {}
+[13.808584] (-) TimerEvent: {}
+[13.909098] (-) TimerEvent: {}
+[14.009618] (-) TimerEvent: {}
+[14.110123] (-) TimerEvent: {}
+[14.210624] (-) TimerEvent: {}
+[14.311144] (-) TimerEvent: {}
+[14.411663] (-) TimerEvent: {}
+[14.512152] (-) TimerEvent: {}
+[14.612579] (-) TimerEvent: {}
+[14.713010] (-) TimerEvent: {}
+[14.813456] (-) TimerEvent: {}
+[14.913887] (-) TimerEvent: {}
+[15.014329] (-) TimerEvent: {}
+[15.114783] (-) TimerEvent: {}
+[15.215225] (-) TimerEvent: {}
+[15.315682] (-) TimerEvent: {}
+[15.416124] (-) TimerEvent: {}
+[15.516575] (-) TimerEvent: {}
+[15.617073] (-) TimerEvent: {}
+[15.628448] (ar_interface) StdoutLine: {'line': b'[ 78%] Built target ar_interface__py\n'}
+[15.671389] (ar_interface) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_params_s.c.o\x1b[0m\n'}
+[15.678478] (ar_interface) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/srv/_compute_cubic_traj_s.c.o\x1b[0m\n'}
+[15.680555] (ar_interface) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/ar_interface__rosidl_generator_py.dir/rosidl_generator_py/ar_interface/msg/_cubic_traj_coeffs_s.c.o\x1b[0m\n'}
+[15.717228] (-) TimerEvent: {}
+[15.818243] (-) TimerEvent: {}
+[15.920525] (-) TimerEvent: {}
+[16.021070] (-) TimerEvent: {}
+[16.023209] (ar_interface) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ar_interface/libar_interface__rosidl_generator_py.so\x1b[0m\n'}
+[16.109037] (ar_interface) StdoutLine: {'line': b'[ 87%] Built target ar_interface__rosidl_generator_py\n'}
+[16.121228] (-) TimerEvent: {}
+[16.160696] (ar_interface) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/ar_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[16.163034] (ar_interface) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/ar_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[16.171110] (ar_interface) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/ar_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ar_interface/_ar_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[16.221373] (-) TimerEvent: {}
+[16.322531] (-) TimerEvent: {}
+[16.423118] (-) TimerEvent: {}
+[16.444052] (ar_interface) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ar_interface/ar_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.497615] (ar_interface) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ar_interface/ar_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.523554] (-) TimerEvent: {}
+[16.537017] (ar_interface) StdoutLine: {'line': b'[ 97%] Built target ar_interface__rosidl_typesupport_c__pyext\n'}
+[16.550132] (ar_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ar_interface/ar_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[16.593109] (ar_interface) StdoutLine: {'line': b'[100%] Built target ar_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[16.623700] (-) TimerEvent: {}
+[16.632224] (ar_interface) StdoutLine: {'line': b'[100%] Built target ar_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[16.662279] (ar_interface) CommandEnded: {'returncode': 0}
+[16.664360] (ar_interface) JobProgress: {'identifier': 'ar_interface', 'progress': 'install'}
+[16.685021] (ar_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/asad/ros2_ws/build/ar_interface'], 'cwd': '/home/asad/ros2_ws/build/ar_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'asad'), ('LC_TIME', 'ur_PK'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/asad'), ('OLDPWD', '/home/asad'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ur_PK'), ('SYSTEMD_EXEC_PID', '1533'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/asad/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'asad'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'asad'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/asad/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/asad-7G-Series:@/tmp/.ICE-unix/1333,unix/asad-7G-Series:/tmp/.ICE-unix/1333'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ur_PK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e1c2b8da_cef0_443e_bbe5_a1f2bb831cdc'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ur_PK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.P1U732'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/asad/ros2_ws/install/ar_test:/home/asad/ros2_ws/install/ar_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ur_PK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ur_PK'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:'), ('LC_IDENTIFICATION', 'ur_PK'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/asad/ros2_ws/build/ar_interface'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/asad/ros2_ws/install/ar_test/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ur_PK'), ('LC_PAPER', 'ur_PK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/asad/ros2_ws/install/ar_interface:/home/asad/ros2_ws/install/ar_test:/opt/ros/humble')]), 'shell': False}
+[16.704240] (ar_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.704806] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ament_index/resource_index/rosidl_interfaces/ar_interface\n'}
+[16.705314] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface\n'}
+[16.705813] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv\n'}
+[16.706188] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/compute_cubic_traj.h\n'}
+[16.706603] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail\n'}
+[16.706947] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__functions.h\n'}
+[16.707299] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__functions.c\n'}
+[16.707730] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__struct.h\n'}
+[16.708048] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__type_support.h\n'}
+[16.708311] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg\n'}
+[16.708751] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/cubic_traj_params.h\n'}
+[16.709047] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[16.709315] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/cubic_traj_coeffs.h\n'}
+[16.709741] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail\n'}
+[16.710016] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__type_support.h\n'}
+[16.710275] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__functions.h\n'}
+[16.710677] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__functions.c\n'}
+[16.710948] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__struct.h\n'}
+[16.711205] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__functions.c\n'}
+[16.711493] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__type_support.h\n'}
+[16.711850] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__functions.h\n'}
+[16.712095] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__struct.h\n'}
+[16.712334] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/environment/library_path.sh\n'}
+[16.712708] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/environment/library_path.dsv\n'}
+[16.712977] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_generator_c.so\n'}
+[16.713276] (ar_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/asad/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_generator_c.so" to ""\n'}
+[16.713737] (ar_interface) StdoutLine: {'line': b'-- Up-to-date: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface\n'}
+[16.714032] (ar_interface) StdoutLine: {'line': b'-- Up-to-date: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv\n'}
+[16.714364] (ar_interface) StdoutLine: {'line': b'-- Up-to-date: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail\n'}
+[16.714697] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__rosidl_typesupport_fastrtps_c.h\n'}
+[16.714942] (ar_interface) StdoutLine: {'line': b'-- Up-to-date: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg\n'}
+[16.715185] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[16.715443] (ar_interface) StdoutLine: {'line': b'-- Up-to-date: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail\n'}
+[16.715803] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__rosidl_typesupport_fastrtps_c.h\n'}
+[16.716053] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__rosidl_typesupport_fastrtps_c.h\n'}
+[16.716305] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[16.716750] (ar_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/asad/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[16.717000] (ar_interface) StdoutLine: {'line': b'-- Up-to-date: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface\n'}
+[16.717350] (ar_interface) StdoutLine: {'line': b'-- Up-to-date: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv\n'}
+[16.717676] (ar_interface) StdoutLine: {'line': b'-- Up-to-date: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail\n'}
+[16.717932] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__type_support.c\n'}
+[16.718172] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__rosidl_typesupport_introspection_c.h\n'}
+[16.718430] (ar_interface) StdoutLine: {'line': b'-- Up-to-date: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg\n'}
+[16.718843] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[16.719096] (ar_interface) StdoutLine: {'line': b'-- Up-to-date: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail\n'}
+[16.719335] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__type_support.c\n'}
+[16.719674] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__rosidl_typesupport_introspection_c.h\n'}
+[16.719975] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__type_support.c\n'}
+[16.720218] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__rosidl_typesupport_introspection_c.h\n'}
+[16.720486] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_typesupport_introspection_c.so\n'}
+[16.720805] (ar_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/asad/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[16.721052] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_typesupport_c.so\n'}
+[16.721418] (ar_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/asad/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_typesupport_c.so" to ""\n'}
+[16.722068] (ar_interface) StdoutLine: {'line': b'-- Up-to-date: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface\n'}
+[16.722312] (ar_interface) StdoutLine: {'line': b'-- Up-to-date: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv\n'}
+[16.722582] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/compute_cubic_traj.hpp\n'}
+[16.722818] (ar_interface) StdoutLine: {'line': b'-- Up-to-date: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail\n'}
+[16.723053] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__struct.hpp\n'}
+[16.723428] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__type_support.hpp\n'}
+[16.723869] (-) TimerEvent: {}
+[16.724173] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__traits.hpp\n'}
+[16.724488] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__builder.hpp\n'}
+[16.724746] (ar_interface) StdoutLine: {'line': b'-- Up-to-date: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg\n'}
+[16.724977] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[16.725204] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/cubic_traj_coeffs.hpp\n'}
+[16.725627] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/cubic_traj_params.hpp\n'}
+[16.725858] (ar_interface) StdoutLine: {'line': b'-- Up-to-date: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail\n'}
+[16.726095] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__traits.hpp\n'}
+[16.726327] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__builder.hpp\n'}
+[16.726742] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__struct.hpp\n'}
+[16.727071] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__traits.hpp\n'}
+[16.727308] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__struct.hpp\n'}
+[16.727694] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__builder.hpp\n'}
+[16.727920] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__type_support.hpp\n'}
+[16.728145] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__type_support.hpp\n'}
+[16.728371] (ar_interface) StdoutLine: {'line': b'-- Up-to-date: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface\n'}
+[16.728700] (ar_interface) StdoutLine: {'line': b'-- Up-to-date: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv\n'}
+[16.728926] (ar_interface) StdoutLine: {'line': b'-- Up-to-date: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail\n'}
+[16.729161] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/dds_fastrtps\n'}
+[16.729408] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.729788] (ar_interface) StdoutLine: {'line': b'-- Up-to-date: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg\n'}
+[16.730018] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[16.730352] (ar_interface) StdoutLine: {'line': b'-- Up-to-date: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail\n'}
+[16.730715] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.730954] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/dds_fastrtps\n'}
+[16.731183] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[16.731426] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[16.731754] (ar_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/asad/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[16.731972] (ar_interface) StdoutLine: {'line': b'-- Up-to-date: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface\n'}
+[16.732197] (ar_interface) StdoutLine: {'line': b'-- Up-to-date: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv\n'}
+[16.732556] (ar_interface) StdoutLine: {'line': b'-- Up-to-date: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail\n'}
+[16.732783] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__type_support.cpp\n'}
+[16.732997] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/srv/detail/compute_cubic_traj__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.733279] (ar_interface) StdoutLine: {'line': b'-- Up-to-date: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg\n'}
+[16.733658] (ar_interface) StdoutLine: {'line': b'-- Up-to-date: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail\n'}
+[16.733894] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__type_support.cpp\n'}
+[16.734121] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__type_support.cpp\n'}
+[16.734354] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_params__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.734620] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/include/ar_interface/ar_interface/msg/detail/cubic_traj_coeffs__rosidl_typesupport_introspection_cpp.hpp\n'}
+[16.734844] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[16.735060] (ar_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/asad/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[16.735421] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_typesupport_cpp.so\n'}
+[16.735736] (ar_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/asad/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[16.735970] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/environment/pythonpath.sh\n'}
+[16.736198] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/environment/pythonpath.dsv\n'}
+[16.736597] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface-0.0.0-py3.10.egg-info\n'}
+[16.736833] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[16.737070] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[16.737406] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[16.737746] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[16.737968] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface\n'}
+[16.738193] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/ar_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.738531] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/ar_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.738822] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/_ar_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[16.739114] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/_ar_interface_s.ep.rosidl_typesupport_c.c\n'}
+[16.739345] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/srv\n'}
+[16.739687] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/srv/_compute_cubic_traj_s.c\n'}
+[16.739975] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/srv/_compute_cubic_traj.py\n'}
+[16.740204] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/srv/__init__.py\n'}
+[16.740445] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/libar_interface__rosidl_generator_py.so\n'}
+[16.740787] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/ar_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.741019] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/msg\n'}
+[16.741245] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/msg/_cubic_traj_coeffs_s.c\n'}
+[16.741547] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/msg/_cubic_traj_params.py\n'}
+[16.741784] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/msg/_cubic_traj_coeffs.py\n'}
+[16.742031] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/msg/_cubic_traj_params_s.c\n'}
+[16.742244] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/msg/__init__.py\n'}
+[16.742507] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/_ar_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[16.742735] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/__init__.py\n'}
+[16.823959] (-) TimerEvent: {}
+[16.825948] (ar_interface) StdoutLine: {'line': b"Listing '/home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface'...\n"}
+[16.826247] (ar_interface) StdoutLine: {'line': b"Compiling '/home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/__init__.py'...\n"}
+[16.826430] (ar_interface) StdoutLine: {'line': b"Listing '/home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/msg'...\n"}
+[16.826589] (ar_interface) StdoutLine: {'line': b"Compiling '/home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/msg/__init__.py'...\n"}
+[16.826724] (ar_interface) StdoutLine: {'line': b"Compiling '/home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/msg/_cubic_traj_coeffs.py'...\n"}
+[16.826850] (ar_interface) StdoutLine: {'line': b"Compiling '/home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/msg/_cubic_traj_params.py'...\n"}
+[16.826975] (ar_interface) StdoutLine: {'line': b"Listing '/home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/srv'...\n"}
+[16.827098] (ar_interface) StdoutLine: {'line': b"Compiling '/home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/srv/__init__.py'...\n"}
+[16.827222] (ar_interface) StdoutLine: {'line': b"Compiling '/home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/srv/_compute_cubic_traj.py'...\n"}
+[16.839204] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/ar_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.840164] (ar_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/ar_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.840827] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/ar_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.841879] (ar_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/ar_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.842497] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/ar_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[16.843519] (ar_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/asad/ros2_ws/install/ar_interface/local/lib/python3.10/dist-packages/ar_interface/ar_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[16.843824] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_generator_py.so\n'}
+[16.844922] (ar_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/asad/ros2_ws/install/ar_interface/lib/libar_interface__rosidl_generator_py.so" to ""\n'}
+[16.845215] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/msg/CubicTrajParams.idl\n'}
+[16.845662] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/msg/CubicTrajCoeffs.idl\n'}
+[16.846172] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/srv/ComputeCubicTraj.idl\n'}
+[16.846600] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/msg/CubicTrajParams.msg\n'}
+[16.847010] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/msg/CubicTrajCoeffs.msg\n'}
+[16.847351] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/srv/ComputeCubicTraj.srv\n'}
+[16.847750] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/srv/ComputeCubicTraj_Request.msg\n'}
+[16.848131] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/srv/ComputeCubicTraj_Response.msg\n'}
+[16.848668] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ament_index/resource_index/package_run_dependencies/ar_interface\n'}
+[16.849187] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ament_index/resource_index/parent_prefix_path/ar_interface\n'}
+[16.849608] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/environment/ament_prefix_path.sh\n'}
+[16.850036] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/environment/ament_prefix_path.dsv\n'}
+[16.850566] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/environment/path.sh\n'}
+[16.851041] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/environment/path.dsv\n'}
+[16.851419] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/local_setup.bash\n'}
+[16.851782] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/local_setup.sh\n'}
+[16.852147] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/local_setup.zsh\n'}
+[16.852716] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/local_setup.dsv\n'}
+[16.853184] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/package.dsv\n'}
+[16.853695] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ament_index/resource_index/packages/ar_interface\n'}
+[16.854200] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/cmake/export_ar_interface__rosidl_generator_cExport.cmake\n'}
+[16.854653] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/cmake/export_ar_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[16.855103] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/cmake/export_ar_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[16.855503] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/cmake/export_ar_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[16.855947] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/cmake/ar_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[16.856352] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/cmake/ar_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[16.856830] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/cmake/ar_interface__rosidl_typesupport_cExport.cmake\n'}
+[16.857236] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/cmake/ar_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[16.857714] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/cmake/export_ar_interface__rosidl_generator_cppExport.cmake\n'}
+[16.858130] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/cmake/export_ar_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[16.858585] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/cmake/export_ar_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[16.858994] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/cmake/ar_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[16.859421] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/cmake/ar_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[16.859861] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/cmake/ar_interface__rosidl_typesupport_cppExport.cmake\n'}
+[16.860276] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/cmake/ar_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[16.860743] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/cmake/export_ar_interface__rosidl_generator_pyExport.cmake\n'}
+[16.861165] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/cmake/export_ar_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[16.861610] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[16.861999] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[16.862485] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[16.862859] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[16.863256] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[16.863738] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[16.864157] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[16.864616] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/cmake/ar_interfaceConfig.cmake\n'}
+[16.864949] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/cmake/ar_interfaceConfig-version.cmake\n'}
+[16.865324] (ar_interface) StdoutLine: {'line': b'-- Installing: /home/asad/ros2_ws/install/ar_interface/share/ar_interface/package.xml\n'}
+[16.870718] (ar_interface) CommandEnded: {'returncode': 0}
+[16.917176] (ar_interface) JobEnded: {'identifier': 'ar_interface', 'rc': 0}
+[16.918693] (-) EventReactorShutdown: {}

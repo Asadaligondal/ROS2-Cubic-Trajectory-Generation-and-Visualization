@@ -1,0 +1,26 @@
+[1.884s] Invoking command in '/home/asad/ros2_ws/src/ar_test': PYTHONPATH=/home/asad/ros2_ws/build/ar_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asad/ros2_ws/install/ar_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ar_test build --build-base /home/asad/ros2_ws/build/ar_test/build install --record /home/asad/ros2_ws/build/ar_test/install.log --single-version-externally-managed install_data
+[2.410s] running egg_info
+[2.412s] writing ../../build/ar_test/ar_test.egg-info/PKG-INFO
+[2.413s] writing dependency_links to ../../build/ar_test/ar_test.egg-info/dependency_links.txt
+[2.413s] writing entry points to ../../build/ar_test/ar_test.egg-info/entry_points.txt
+[2.414s] writing requirements to ../../build/ar_test/ar_test.egg-info/requires.txt
+[2.414s] writing top-level names to ../../build/ar_test/ar_test.egg-info/top_level.txt
+[2.420s] reading manifest file '../../build/ar_test/ar_test.egg-info/SOURCES.txt'
+[2.422s] writing manifest file '../../build/ar_test/ar_test.egg-info/SOURCES.txt'
+[2.422s] running build
+[2.422s] running build_py
+[2.423s] running install
+[2.423s] running install_lib
+[2.426s] running install_data
+[2.426s] creating /home/asad/ros2_ws/install/ar_test/share/ar_test/launch
+[2.426s] copying launch/cubic_traj_gen.launch.py -> /home/asad/ros2_ws/install/ar_test/share/ar_test/launch
+[2.427s] running install_egg_info
+[2.431s] removing '/home/asad/ros2_ws/install/ar_test/lib/python3.10/site-packages/ar_test-0.0.0-py3.10.egg-info' (and everything under it)
+[2.433s] Copying ../../build/ar_test/ar_test.egg-info to /home/asad/ros2_ws/install/ar_test/lib/python3.10/site-packages/ar_test-0.0.0-py3.10.egg-info
+[2.434s] running install_scripts
+[2.479s] Installing compute_cubic_coeffs script to /home/asad/ros2_ws/install/ar_test/lib/ar_test
+[2.479s] Installing cubic_traj_planner script to /home/asad/ros2_ws/install/ar_test/lib/ar_test
+[2.479s] Installing plot_cubic_traj script to /home/asad/ros2_ws/install/ar_test/lib/ar_test
+[2.480s] Installing points_generator script to /home/asad/ros2_ws/install/ar_test/lib/ar_test
+[2.480s] writing list of installed files to '/home/asad/ros2_ws/build/ar_test/install.log'
+[2.530s] Invoked command in '/home/asad/ros2_ws/src/ar_test' returned '0': PYTHONPATH=/home/asad/ros2_ws/build/ar_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asad/ros2_ws/install/ar_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ar_test build --build-base /home/asad/ros2_ws/build/ar_test/build install --record /home/asad/ros2_ws/build/ar_test/install.log --single-version-externally-managed install_data

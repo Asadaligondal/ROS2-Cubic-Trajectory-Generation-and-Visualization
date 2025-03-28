@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ar_interface/msg/CubicTrajCoeffs.msg
+// generated code does not contain a copyright notice
+
+
+module ar_interface {
+  module msg {
+    struct CubicTrajCoeffs {
+      @verbatim (language="comment", text=
+        "Coefficient for t^0")
+      double a0;
+
+      @verbatim (language="comment", text=
+        "Coefficient for t^1")
+      double a1;
+
+      @verbatim (language="comment", text=
+        "Coefficient for t^2")
+      double a2;
+
+      @verbatim (language="comment", text=
+        "Coefficient for t^3")
+      double a3;
+
+      @verbatim (language="comment", text=
+        "Initial time")
+      double t0;
+
+      @verbatim (language="comment", text=
+        "Final time")
+      double tf;
+    };
+  };
+};

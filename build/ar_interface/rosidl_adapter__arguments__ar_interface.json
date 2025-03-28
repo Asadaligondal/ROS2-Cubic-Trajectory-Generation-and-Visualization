@@ -1,0 +1,8 @@
+{
+  "package_name": "ar_interface",
+  "non_idl_tuples": [
+    "/home/asad/ros2_ws/src/ar_interface:msg/CubicTrajParams.msg",
+    "/home/asad/ros2_ws/src/ar_interface:msg/CubicTrajCoeffs.msg",
+    "/home/asad/ros2_ws/src/ar_interface:srv/ComputeCubicTraj.srv"
+  ]
+}

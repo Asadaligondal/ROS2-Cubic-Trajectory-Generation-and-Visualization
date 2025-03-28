@@ -1,0 +1,55 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ar_interface/srv/ComputeCubicTraj.srv
+// generated code does not contain a copyright notice
+
+
+module ar_interface {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request: trajectory parameters")
+    struct ComputeCubicTraj_Request {
+      @verbatim (language="comment", text=
+        "Initial position")
+      double p0;
+
+      @verbatim (language="comment", text=
+        "Final position")
+      double pf;
+
+      @verbatim (language="comment", text=
+        "Initial velocity")
+      double v0;
+
+      @verbatim (language="comment", text=
+        "Final velocity")
+      double vf;
+
+      @verbatim (language="comment", text=
+        "Initial time")
+      double t0;
+
+      @verbatim (language="comment", text=
+        "Final time")
+      double tf;
+    };
+    @verbatim (language="comment", text=
+      "Response: cubic coefficients")
+    struct ComputeCubicTraj_Response {
+      @verbatim (language="comment", text=
+        "Coefficient for t^0")
+      double a0;
+
+      @verbatim (language="comment", text=
+        "Coefficient for t^1")
+      double a1;
+
+      @verbatim (language="comment", text=
+        "Coefficient for t^2")
+      double a2;
+
+      @verbatim (language="comment", text=
+        "Coefficient for t^3")
+      double a3;
+    };
+  };
+};

@@ -1,0 +1,8 @@
+msg/CubicTrajCoeffs.idl
+msg/CubicTrajCoeffs.msg
+msg/CubicTrajParams.idl
+msg/CubicTrajParams.msg
+srv/ComputeCubicTraj.idl
+srv/ComputeCubicTraj.srv
+srv/ComputeCubicTraj_Request.msg
+srv/ComputeCubicTraj_Response.msg

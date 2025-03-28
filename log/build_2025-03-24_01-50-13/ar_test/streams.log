@@ -1,0 +1,32 @@
+[1.693s] Invoking command in '/home/asad/ros2_ws/src/ar_test': PYTHONPATH=/home/asad/ros2_ws/build/ar_test/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/asad/ros2_ws/install/ar_test/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ar_test build --build-base /home/asad/ros2_ws/build/ar_test/build install --record /home/asad/ros2_ws/build/ar_test/install.log --single-version-externally-managed install_data
+[2.248s] running egg_info
+[2.250s] creating ../../build/ar_test/ar_test.egg-info
+[2.251s] writing ../../build/ar_test/ar_test.egg-info/PKG-INFO
+[2.251s] writing dependency_links to ../../build/ar_test/ar_test.egg-info/dependency_links.txt
+[2.252s] writing entry points to ../../build/ar_test/ar_test.egg-info/entry_points.txt
+[2.252s] writing requirements to ../../build/ar_test/ar_test.egg-info/requires.txt
+[2.252s] writing top-level names to ../../build/ar_test/ar_test.egg-info/top_level.txt
+[2.253s] writing manifest file '../../build/ar_test/ar_test.egg-info/SOURCES.txt'
+[2.258s] reading manifest file '../../build/ar_test/ar_test.egg-info/SOURCES.txt'
+[2.260s] writing manifest file '../../build/ar_test/ar_test.egg-info/SOURCES.txt'
+[2.260s] running build
+[2.260s] running build_py
+[2.261s] creating /home/asad/ros2_ws/build/ar_test/build
+[2.261s] creating /home/asad/ros2_ws/build/ar_test/build/lib
+[2.261s] creating /home/asad/ros2_ws/build/ar_test/build/lib/ar_test
+[2.261s] copying ar_test/__init__.py -> /home/asad/ros2_ws/build/ar_test/build/lib/ar_test
+[2.261s] running install
+[2.262s] running install_lib
+[2.265s] creating /home/asad/ros2_ws/install/ar_test/lib/python3.10/site-packages/ar_test
+[2.265s] copying /home/asad/ros2_ws/build/ar_test/build/lib/ar_test/__init__.py -> /home/asad/ros2_ws/install/ar_test/lib/python3.10/site-packages/ar_test
+[2.266s] byte-compiling /home/asad/ros2_ws/install/ar_test/lib/python3.10/site-packages/ar_test/__init__.py to __init__.cpython-310.pyc
+[2.267s] running install_data
+[2.267s] creating /home/asad/ros2_ws/install/ar_test/share/ament_index
+[2.267s] creating /home/asad/ros2_ws/install/ar_test/share/ament_index/resource_index
+[2.268s] creating /home/asad/ros2_ws/install/ar_test/share/ament_index/resource_index/packages
+[2.268s] copying resource/ar_test -> /home/asad/ros2_ws/install/ar_test/share/ament_index/resource_index/packages
+[2.268s] copying package.xml -> /home/asad/ros2_ws/install/ar_test/share/ar_test
+[2.268s] running install_egg_info
+[2.273s] Copying ../../build/ar_test/ar_test.egg-info to /home/asad/ros2_ws/install/ar_test/lib/python3.10/site-packages/ar_test-0.0.0-py3.10.egg-info
+[2.276s] running install_scripts
+[2.321s] writing list of installed files to '/home/asad/ros2_ws/build/ar_test/install.log'

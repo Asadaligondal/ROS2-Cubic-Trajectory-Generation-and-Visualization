@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ar_interface/msg/CubicTrajParams.msg
+// generated code does not contain a copyright notice
+
+
+module ar_interface {
+  module msg {
+    struct CubicTrajParams {
+      @verbatim (language="comment", text=
+        "Initial position")
+      double p0;
+
+      @verbatim (language="comment", text=
+        "Final position")
+      double pf;
+
+      @verbatim (language="comment", text=
+        "Initial velocity")
+      double v0;
+
+      @verbatim (language="comment", text=
+        "Final velocity")
+      double vf;
+
+      @verbatim (language="comment", text=
+        "Initial time")
+      double t0;
+
+      @verbatim (language="comment", text=
+        "Final time")
+      double tf;
+    };
+  };
+};

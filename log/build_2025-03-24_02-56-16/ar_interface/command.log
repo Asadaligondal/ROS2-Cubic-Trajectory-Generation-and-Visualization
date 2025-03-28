@@ -1,0 +1,4 @@
+Invoking command in '/home/asad/ros2_ws/build/ar_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asad/ros2_ws/install/ar_test:/opt/ros/humble /usr/bin/cmake --build /home/asad/ros2_ws/build/ar_interface -- -j4 -l4
+Invoked command in '/home/asad/ros2_ws/build/ar_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asad/ros2_ws/install/ar_test:/opt/ros/humble /usr/bin/cmake --build /home/asad/ros2_ws/build/ar_interface -- -j4 -l4
+Invoking command in '/home/asad/ros2_ws/build/ar_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asad/ros2_ws/install/ar_test:/opt/ros/humble /usr/bin/cmake --install /home/asad/ros2_ws/build/ar_interface
+Invoked command in '/home/asad/ros2_ws/build/ar_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/asad/ros2_ws/install/ar_test:/opt/ros/humble /usr/bin/cmake --install /home/asad/ros2_ws/build/ar_interface
